@@ -26,7 +26,7 @@
 #include "../Interface/TextButton.h"
 #include "../Interface/Window.h"
 #include "../Interface/Text.h"
-#include "NewGameState.h"
+#include "NewGameModeState.h"
 #include "NewBattleState.h"
 #include "ListLoadState.h"
 #include "OptionsVideoState.h"
@@ -219,7 +219,7 @@ MainMenuState::~MainMenuState()
  */
 void MainMenuState::btnNewGameClick(Action *)
 {
-	_game->pushState(new NewGameState);
+	_game->pushState(new NewGameModeState);
 }
 
 /**

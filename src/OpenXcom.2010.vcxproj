@@ -461,6 +461,7 @@
     <ClCompile Include="Menu\ListSaveState.cpp" />
     <ClCompile Include="Menu\LoadGameState.cpp" />
     <ClCompile Include="Menu\ModConfirmExtendedState.cpp" />
+    <ClCompile Include="Menu\NewGameModeState.cpp" />
     <ClCompile Include="Menu\NotesState.cpp" />
     <ClCompile Include="Menu\OptionsAdvancedState.cpp" />
     <ClCompile Include="Menu\DeleteGameState.cpp" />
@@ -857,6 +858,7 @@
     <ClInclude Include="Menu\ListSaveState.h" />
     <ClInclude Include="Menu\LoadGameState.h" />
     <ClInclude Include="Menu\ModConfirmExtendedState.h" />
+    <ClInclude Include="Menu\NewGameModeState.h" />
     <ClInclude Include="Menu\NotesState.h" />
     <ClInclude Include="Menu\OptionsAdvancedState.h" />
     <ClInclude Include="Menu\DeleteGameState.h" />

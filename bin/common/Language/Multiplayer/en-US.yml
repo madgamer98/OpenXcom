@@ -1,4 +1,5 @@
 en-US:
+  STR_GAMEMODE: "Please Select Your Gamemode"
   STR_SOLO: "Solo"
   STR_HOST: "Host"
   STR_CLIENT: "Client"

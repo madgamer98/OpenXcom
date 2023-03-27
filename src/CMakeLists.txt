@@ -254,6 +254,7 @@ set ( menu_src
   Menu/LoadGameState.cpp
   Menu/MainMenuState.cpp
   Menu/NewBattleState.cpp
+  Menu/NewGameModeState.cpp
   Menu/NewGameState.cpp
   Menu/NotesState.cpp
   Menu/OptionsAdvancedState.cpp

@@ -41,7 +41,7 @@ namespace OpenXcom
 NewGameState::NewGameState()
 {
 	// Create objects
-	_window = new Window(this, 192, 180, 64, 10, POPUP_VERTICAL);
+	_window = new Window(this, 192, 180, 64, 10);
 	_btnBeginner = new TextButton(160, 18, 80, 32);
 	_btnExperienced = new TextButton(160, 18, 80, 52);
 	_btnVeteran = new TextButton(160, 18, 80, 72);
