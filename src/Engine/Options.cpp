@@ -556,7 +556,7 @@ static void loadArgs()
 static bool showHelp()
 {
 	std::ostringstream help;
-	help << "OpenXcom v" << OPENXCOM_VERSION_SHORT << std::endl;
+	help << "OpenXcom v" << OPENXCOM_MULTIPLAYER_VERSION_SHORT << std::endl;
 	help << "Usage: openxcom [OPTION]..." << std::endl << std::endl;
 	help << "-data PATH" << std::endl;
 	help << "        use PATH as the default Data Folder instead of auto-detecting" << std::endl << std::endl;
@@ -642,7 +642,7 @@ bool init()
 	// this enables writes to the log file and filters already emitted messages
 	CrossPlatform::setLogFileName(getUserFolder() + "openxcom.log");
 
-	Log(LOG_INFO) << "OpenXcom Version: " << OPENXCOM_VERSION_SHORT << OPENXCOM_VERSION_GIT;
+	Log(LOG_INFO) << "OpenXcom Version: " << OPENXCOM_MULTIPLAYER_VERSION_SHORT << OPENXCOM_VERSION_GIT;
 #ifdef _WIN64
 	Log(LOG_INFO) << "Platform: Windows 64 bit";
 #elif _WIN32
