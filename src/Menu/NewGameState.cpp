@@ -167,10 +167,9 @@ void NewGameState::btnOkClick(Action *)
 	// Reset touch flags
 	_game->resetTouchButtonFlags();
 
-	SavedGame *save = _game->getMod()->newSave(diff);
+	SavedGame *save = _game->getSavedGame();
 	save->setDifficulty(diff);
 	save->setIronman(_btnIronman->getPressed());
-	_game->setSavedGame(save);
 
 	GeoscapeState *gs = new GeoscapeState;
 	_game->setState(gs);

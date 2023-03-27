@@ -1136,6 +1136,9 @@
     <ClCompile Include="Menu\NewGameModeState.cpp">
       <Filter>Menu</Filter>
     </ClCompile>
+    <ClCompile Include="Multiplayer.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
@@ -2333,6 +2336,9 @@
     <ClInclude Include="Menu\NewGameModeState.h">
       <Filter>Menu</Filter>
     </ClInclude>
+    <ClInclude Include="Mutiplayer.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Geoscape">
@@ -2367,6 +2373,9 @@
     </Filter>
     <Filter Include="Mod">
       <UniqueIdentifier>{ea5b1e9f-9ff1-457d-9a15-5af8773ccb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer">
+      <UniqueIdentifier>{ab2e25c2-8f67-4535-9bcf-889bb3099844}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
