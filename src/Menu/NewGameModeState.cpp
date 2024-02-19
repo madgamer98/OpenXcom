@@ -105,8 +105,6 @@ void NewGameModeState::btnOkClick(Action*)
 	_game->resetTouchButtonFlags();
 
 	SavedGame* save = _game->getMod()->newSave(DIFF_BEGINNER);
-	//save->setDifficulty(diff);
-	//save->setIronman(_btnIronman->getPressed());
 	_game->setSavedGame(save);
 
 	_game->pushState(new NewGameState);
